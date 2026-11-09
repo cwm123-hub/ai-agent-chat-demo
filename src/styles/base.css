@@ -1,0 +1,65 @@
+:root {
+  --ink: #1d2433;
+  --ink-soft: #3c4350;
+  --muted: #7c8598;
+  --line: #e6e9f0;
+  --bg: #f6f7fb;
+  --panel: #ffffff;
+  --navy: #1f2533;
+  --navy-2: #2a3140;
+  --gold: #c8a15a;
+  --green: #2f9e6b;
+  --red: #d9534f;
+  --radius: 14px;
+  --font: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", system-ui, -apple-system, sans-serif;
+  --mono: "JetBrains Mono", "Cascadia Code", Consolas, "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  color: inherit;
+}
+
+textarea,
+input {
+  font-family: inherit;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #d3d8e3;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #bcc3d1;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
